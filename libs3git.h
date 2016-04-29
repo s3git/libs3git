@@ -72,6 +72,8 @@ extern char* s3git_list(char* p0, char* p1);
 
 extern char* s3git_list_commits(char* p0);
 
+extern GoInt s3git_remote_add(char* p0, char* p1, char* p2, char* p3, char* p4, char* p5);
+
 #ifdef __cplusplus
 }
 #endif
